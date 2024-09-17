@@ -1,0 +1,161 @@
+@media (max-width: 800px) {  
+  body {
+    overflow-x: hidden;
+  }
+
+  header {
+    padding-top: 30px;
+  }
+
+  header img {
+    width: 100px;
+  }
+
+  nav ul a {
+    font: 500 0.875rem 'Raleway';
+  }
+
+  .container {
+    max-width: 470px;
+  }
+
+  .box-bg-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box-bg-image > div:nth-child(2) {
+    order: 1;
+  }
+
+  .box-bg-image > div:nth-child(1) {
+    order: 2;
+  }
+
+  .box-bg-image h1 {
+    text-align: center;
+  }
+
+  .box-bg-image p {
+    text-align: center;
+    max-width: 38ch;
+    margin: 0 auto;
+  }
+
+  .grid-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .grid-column input {
+    width: 80%;
+    transform: translateX(-40px);
+    margin-top: 32px;
+    padding: 14px;
+  }
+
+  .grid-column button {
+    width: 80%;
+    transform: translateX(-40px);
+    margin-top: 12px;
+    padding: 14px;
+    font-weight: 700;
+  }
+
+  .box-information {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box-information > div:nth-child(1) {
+    order: 1;
+    width: 400px;
+  }
+
+  .box-information img {
+    width: 400px;
+    max-width: max-content;
+    padding-top: 60px;
+  }
+
+  .box-information p a {
+    display: block;
+    max-width: max-content;
+    margin: 0 auto;
+    margin-top: 40px;
+  } 
+
+  .box-avatar {
+    max-width: 375px;
+  }
+
+  .newsletter-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+  }
+
+  .newsletter-form .news-information {
+    padding-bottom: 20px;
+  }
+
+  .newsletter-form .news-information h1 {
+    text-align: center;
+  }
+
+  .newsletter-form .news-information p {
+    text-align: center;
+  }
+
+  .newsletter-form .newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding-top: 0;
+  }
+  
+  .newsletter button {
+    width: 70%;
+    padding: 12px;
+  } 
+
+  .newsletter input {
+    padding: 12px;
+  } 
+
+  .box-svg  {
+    padding-top: 60px;
+    max-width: 370px;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 370px;
+  }
+
+  .footer div:nth-child(2) ul {
+    margin-left: 0;
+  }
+
+  .social-media {
+    margin: 0 auto;
+  }
+
+  .font-list-footer {
+    font-size: 1.2rem;
+  }
+
+  .footer div:first-child ul li:first-child::before {
+    top: 65px;
+  }
+
+  .footer div:first-child ul li:nth-child(2)::before {
+    top: 20px;
+  }
+}
