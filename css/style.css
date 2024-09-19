@@ -27,6 +27,10 @@ header {
   padding-bottom: 60px;
 }
 
+header img {
+  height: auto;
+}
+
 nav ul {
   display: flex;
   flex: wrap;
@@ -157,15 +161,14 @@ blockquote {
 }
 
 .quote .blockquote-img {
-  width: 16px;
-  height: 16px;
-  border-radius: none;
+  padding: 0;
 }
 
 .avatar img {
   width: 36px;
   height: 36px;
   border-radius: 100%;
+  max-width: 100%;
 }
 
 .box-avatar .avatar {
@@ -296,7 +299,7 @@ blockquote {
 }
 
 .para {
-  margin-top: 10px;
+  margin-top: 6px;
 }
 
 .para span {
